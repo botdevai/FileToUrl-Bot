@@ -17,12 +17,12 @@ if Port != 80:
 
 # These example values won't work. You must get your own api_id and
 # api_hash from https://my.telegram.org, under API Development.
-api_id = 12345
-api_hash = 'abcd'
-bot_token = 'efg'
+api_id = int(os.environ.get("id", ""))
+api_hash = os.environ.get("hash", "")
+bot_token = os.environ.get("TG_BOT_TOKEN", "")
 
 # Set the admin of the bot that can use it. These values must be your ID. Get it from @myidbot
-admins = {}
+admins = {1094158404}
 
 # This is the dictionary that is used for downloading files
 # The keys are uuid4 of files given to user
