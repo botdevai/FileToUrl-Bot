@@ -20,6 +20,8 @@ if Port != 80:
 api_id = 2301117
 api_hash = os.environ.get("hash", "")
 bot_token = os.environ.get("TG_BOT_TOKEN", "")
+session_name = os.environ.get("name" , "")
+
 
 # Set the admin of the bot that can use it. These values must be your ID. Get it from @myidbot
 admins = {1094158404}
