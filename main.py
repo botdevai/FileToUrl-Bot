@@ -10,7 +10,7 @@ from aiohttp import web
 from telethon import TelegramClient, events
 
 # Please fill this with IP or domain for your server. The IP is used to generate the links for users
-Domain = "http://bold-rain-8238.fp57h2uk.uffizziapp.com"
+Domain = "https://still-sands-12044.herokuapp.com/"
 Port = 8080
 if Port != 80:
 	Domain += ":" + str(Port)
